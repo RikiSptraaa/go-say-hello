@@ -4,6 +4,7 @@ func SayHello() string {
 	return "Hello"
 }
 
-func Sum(a int, b int) {
-	return a + b
+func Sum(a int, b int) int {
+	x := a + b
+	return x
 }
